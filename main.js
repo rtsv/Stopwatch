@@ -68,19 +68,11 @@ function mainTime() {
 
 
 
-// function onmousetime() {
-//     document.getElementById("time").innerHTML = new Time();
-// }
-
-// function outmousetime() {
-//     document.getElementById("time").innerHTML = "Time";
-// }
-
 function mouseoverTime() {
-    const date = new time();
+    const date = new Date();
     document.getElementById("time").innerHTML = date;
 }
 
-// function mouseoutTime() {
-//     document.getElementById("time").innerHTML = "Time";
-// }
+function mouseoutTime() {
+    document.getElementById("time").innerHTML = "Display Current Time and Date";
+}
