@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(120, 154, 189);
+}
+.main {
+    text-align: center;
+}
+.hidden {
+    margin: 100px;
+}
+.span {
+    font-size: 40px;
+    font-family: monospace;
+    color: mediumvioletred;
+}
+button:hover {
+    opacity: 0.8;
+    background-color: lightblue;
+    transition: 0.7s;
+}
+button {
+    padding: 9px 29px;
+    border-radius: 10px;
+}
+.btn-start {
+    font-size: 25px;
+    font-family: cursive;
+    background-color: green;
+    color: rgb(236, 240, 237);
+    border-radius: 10px;
+}
+.btn-stop {
+    font-size: 25px;
+    font-family: cursive;
+    background-color: rgb(221, 19, 19);
+    color: rgb(236, 240, 237);
+    border-radius: 10px;
+}
+.btn-reset {
+    font-size: 25px;
+    font-family: cursive;
+    background-color: rgb(5, 194, 194);
+    color: rgb(236, 240, 237);
+    border-radius: 10px;
+}
+.time {
+    margin: 45px 45px;
+    padding: 20px 90px;
+    border-radius: 20px;
+    background-color: deepskyblue;
+    font-size: 40px;
+    font-family: cursive;
+}
+.date {
+    margin: 45px 45px;
+    padding: 20px 90px;
+    border-radius: 20px;
+    background-color: rgb(94, 233, 94);
+    font-size: 40px;
+    font-family: cursive;
+}
